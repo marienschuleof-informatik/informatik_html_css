@@ -240,7 +240,8 @@ p {
 
 - MDN Web Docs – CSS Grundlagen: [https://developer.mozilla.org/de/docs/Learn/CSS/First_steps](https://developer.mozilla.org/de/docs/Learn/CSS/First_steps)
 - W3Schools – CSS Tutorial: [https://www.w3schools.com/css/](https://www.w3schools.com/css/)
-- YouTube – „CSS in 20 Minuten" (Traversy Media): [https://www.youtube.com/watch?v=yfoY53QXEnI](https://www.youtube.com/watch?v=yfoY53QXEnI)
+- HTML & CSS - Teil 5 - Einstieg in CSS: [https://youtu.be/5fUFXgT5xiY](https://youtu.be/5fUFXgT5xiY)
+- HTML & CSS - Teil 6 - Gestaltung mit CSS: [https://youtu.be/MYwX7Cbd2Qs](https://youtu.be/MYwX7Cbd2Qs)
 - WebAIM Kontrast-Checker: [https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
 - WCAG 2.1 Richtlinien: [https://www.w3.org/TR/WCAG21/](https://www.w3.org/TR/WCAG21/)
 
