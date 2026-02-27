@@ -2,7 +2,7 @@
 
 A personal CV website built with HTML, CSS and JavaScript — developed as part of a structured four-module web development course.
 
-**AI Transparency Statement**
+## 🤖 AI Transparency Statement
 All content in this repository was generated using AI tools and has been carefully reviewed, edited, and pedagogically curated by the author. The use of artificial intelligence reflects a commitment to responsible, transparent, and reflective integration of digital tools in educational practice.
 
 ---
