@@ -2,6 +2,9 @@
 
 A personal CV website built with HTML, CSS and JavaScript — developed as part of a structured four-module web development course.
 
+**AI Transparency Statement**
+All content in this repository was generated using AI tools and has been carefully reviewed, edited, and pedagogically curated by the author. The use of artificial intelligence reflects a commitment to responsible, transparent, and reflective integration of digital tools in educational practice.
+
 ---
 
 ## 📋 Project Overview
@@ -85,9 +88,8 @@ This project follows the **WCAG 2.1 AA** guidelines:
 
 ---
 
-## 📄 License
-
-Content (texts, images) created by the repository owner. All third-party images used under a [Creative Commons](https://creativecommons.org/licenses/?lang=de) licence with attribution in the page footer.
+## License  
+This project is licensed under CC BY-NC-SA 4.0.
 
 ---
 
