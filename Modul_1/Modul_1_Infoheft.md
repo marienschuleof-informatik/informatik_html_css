@@ -1,8 +1,9 @@
 # Modul 1 – Informationsheft
+
 ## Thema: Grundlagen HTML – Struktur einer Webseite
 
 > **Unser Projekt:** In allen vier Modulen erstellst du Schritt für Schritt eine vollständige persönliche Webseite mit deinem Lebenslauf. Am Ende von Modul 4 hast du eine fertige, barrierefreie Webseite in deinem GitHub Education Repository.
->
+> 
 > **Modul 1:** Du legst das Fundament – die HTML-Grundstruktur deines Lebenslaufs.
 
 ---
@@ -33,16 +34,16 @@ Jedes HTML-Dokument folgt einem festen Aufbau. Das folgende Beispiel zeigt die k
 
 **Was bedeuten diese Zeilen?**
 
-| Zeile | Bedeutung |
+|Zeile|Bedeutung|
 |---|---|
-| `<!DOCTYPE html>` | Teilt dem Browser mit: Dies ist ein HTML5-Dokument. |
-| `<html lang="de">` | Wurzelelement der Seite; `lang="de"` sagt Screen-Readern, dass die Seite Deutsch ist. |
-| `<head>` | Kopfbereich mit Metainformationen – **nicht sichtbar** auf der Webseite. |
-| `<meta charset="UTF-8">` | Stellt sicher, dass Umlaute (ä, ö, ü) korrekt angezeigt werden. |
-| `<title>` | Der Text, der im Browser-Tab erscheint. |
-| `<body>` | Anzeigebereich – **alles Sichtbare** steht hier drin. |
-| `<h1>` | Die wichtigste Überschrift der Seite – hier dein Name. |
-| `<p>` | Ein Absatz (paragraph). |
+|`<!DOCTYPE html>`|Teilt dem Browser mit: Dies ist ein HTML5-Dokument.|
+|`<html lang="de">`|Wurzelelement der Seite; `lang="de"` sagt Screen-Readern, dass die Seite Deutsch ist.|
+|`<head>`|Kopfbereich mit Metainformationen – **nicht sichtbar** auf der Webseite.|
+|`<meta charset="UTF-8">`|Stellt sicher, dass Umlaute (ä, ö, ü) korrekt angezeigt werden.|
+|`<title>`|Der Text, der im Browser-Tab erscheint.|
+|`<body>`|Anzeigebereich – **alles Sichtbare** steht hier drin.|
+|`<h1>`|Die wichtigste Überschrift der Seite – hier dein Name.|
+|`<p>`|Ein Absatz (paragraph).|
 
 ---
 
@@ -116,7 +117,7 @@ HTML stellt `<h1>` bis `<h6>` für Überschriften zur Verfügung. `<h1>` ist die
      alt="Portraitfoto von Max Mustermann, lächelnd vor weißem Hintergrund">
 ```
 
-> ⚠️ **Urheberrecht:** Verwende nur Bilder, die du selbst fotografiert hast, oder Bilder mit einer Creative-Commons-Lizenz (z. B. von [Wikimedia Commons](https://commons.wikimedia.org)). Bilder fremder Personen dürfen außerdem nur mit ihrer Zustimmung veröffentlicht werden (**Persönlichkeitsrecht**).
+> ⚠️ **Urheberrecht:** Verwende nur Bilder, die du selbst fotografiert hast, oder Bilder mit einer Creative-Commons-Lizenz (z. B. von [Wikimedia Commons](https://commons.wikimedia.org/)). Bilder fremder Personen dürfen außerdem nur mit ihrer Zustimmung veröffentlicht werden (**Persönlichkeitsrecht**).
 
 ---
 
@@ -177,40 +178,40 @@ https://www.marienschule-offenbach.de/klasse9/lebenslauf.html
 
 ## Quellen
 
-- MDN Web Docs – HTML-Grundlagen: <https://developer.mozilla.org/de/docs/Learn/HTML/Introduction_to_HTML>
-- W3Schools – HTML Tutorial: <https://www.w3schools.com/html/>
-- YouTube – „HTML in einer Stunde" (TheSimpleCoders): <https://www.youtube.com/watch?v=iqRMoJm_k6Q>
-- YouTube – „Wie funktioniert das Internet?" (Fireship): <https://www.youtube.com/watch?v=zN8YNNHcaZc>
-- Creative Commons – Lizenzen verstehen: <https://creativecommons.org/licenses/?lang=de>
+- MDN Web Docs – HTML-Grundlagen: [https://developer.mozilla.org/de/docs/Learn/HTML/Introduction_to_HTML](https://developer.mozilla.org/de/docs/Learn/HTML/Introduction_to_HTML)
+- W3Schools – HTML Tutorial: [https://www.w3schools.com/html/](https://www.w3schools.com/html/)
+- HTML & CSS - Teil 2 - Einstieg: [https://youtu.be/pq-X-pQVwg8](https://youtu.be/pq-X-pQVwg8)
+-  HTML & CSS - Teil 3 - Tabellen und Bilder: [https://youtu.be/SU3D5B37_ps](https://youtu.be/SU3D5B37_ps)
+- HTML & CSS - Teil 4 - Verlinkungen: [https://youtu.be/BJWma6oTumY](https://youtu.be/BJWma6oTumY)
+- Creative Commons – Lizenzen verstehen: [https://creativecommons.org/licenses/?lang=de](https://creativecommons.org/licenses/?lang=de)
 
 ---
 
 ## Merkblatt – Wichtige Begriffe
 
-| Begriff | Beschreibung |
+|Begriff|Beschreibung|
 |---|---|
-| HTML | HyperText Markup Language – Auszeichnungssprache zur Strukturierung von Webseiten |
-| Tag | Schlüsselwort in spitzen Klammern, z. B. `<p>` oder `</p>` |
-| Element | Kombination aus öffnendem Tag, Inhalt und schließendem Tag |
-| Attribut | Zusatzinformation in einem Tag, z. B. `src="bild.jpg"` oder `lang="de"` |
-| `<!DOCTYPE html>` | Deklaration, die HTML5 als Dokumenttyp ankündigt |
-| `<head>` | Kopfbereich: enthält Metadaten – nicht sichtbar auf der Seite |
-| `<body>` | Anzeigebereich: enthält alle sichtbaren Inhalte |
-| `<h1>` bis `<h6>` | Überschriften-Tags von größter (h1) bis kleinster (h6) Ebene |
-| `<p>` | Absatz (paragraph) |
-| `<a href="...">` | Hyperlink zu einer anderen Seite oder einem Anker auf der gleichen Seite |
-| `<img src="..." alt="...">` | Einbindung eines Bildes; `alt` = Alternativtext für Barrierefreiheit |
-| Hypertext | Verknüpfte Dokumente mit hierarchischer Baumstruktur |
-| DOM | Document Object Model – interne Baumstruktur des HTML-Dokuments im Browser |
-| Browser | Informatiksystem zum Darstellen von Webseiten (Chrome, Firefox, Edge …) |
-| URL | Uniform Resource Locator – Protokoll + Domain + Pfad + Dateiname |
-| HTTPS | Verschlüsseltes Übertragungsprotokoll; erkennbar am Schloss-Symbol im Browser |
-| Screen-Reader | Hilfstechnologie, die Webseiteninhalte vorliest (Barrierefreiheit) |
-| Urheberrecht | Schutz kreativer Werke – fremde Inhalte dürfen nicht ohne Erlaubnis genutzt werden |
-| Persönlichkeitsrecht | Fotos anderer Personen dürfen nicht ohne Zustimmung veröffentlicht werden |
-| DNS | Domain Name System – übersetzt Domainnamen in IP-Adressen (Baumstruktur) |
+|HTML|HyperText Markup Language – Auszeichnungssprache zur Strukturierung von Webseiten|
+|Tag|Schlüsselwort in spitzen Klammern, z. B. `<p>` oder `</p>`|
+|Element|Kombination aus öffnendem Tag, Inhalt und schließendem Tag|
+|Attribut|Zusatzinformation in einem Tag, z. B. `src="bild.jpg"` oder `lang="de"`|
+|`<!DOCTYPE html>`|Deklaration, die HTML5 als Dokumenttyp ankündigt|
+|`<head>`|Kopfbereich: enthält Metadaten – nicht sichtbar auf der Seite|
+|`<body>`|Anzeigebereich: enthält alle sichtbaren Inhalte|
+|`<h1>` bis `<h6>`|Überschriften-Tags von größter (h1) bis kleinster (h6) Ebene|
+|`<p>`|Absatz (paragraph)|
+|`<a href="...">`|Hyperlink zu einer anderen Seite oder einem Anker auf der gleichen Seite|
+|`<img src="..." alt="...">`|Einbindung eines Bildes; `alt` = Alternativtext für Barrierefreiheit|
+|Hypertext|Verknüpfte Dokumente mit hierarchischer Baumstruktur|
+|DOM|Document Object Model – interne Baumstruktur des HTML-Dokuments im Browser|
+|Browser|Informatiksystem zum Darstellen von Webseiten (Chrome, Firefox, Edge …)|
+|URL|Uniform Resource Locator – Protokoll + Domain + Pfad + Dateiname|
+|HTTPS|Verschlüsseltes Übertragungsprotokoll; erkennbar am Schloss-Symbol im Browser|
+|Screen-Reader|Hilfstechnologie, die Webseiteninhalte vorliest (Barrierefreiheit)|
+|Urheberrecht|Schutz kreativer Werke – fremde Inhalte dürfen nicht ohne Erlaubnis genutzt werden|
+|Persönlichkeitsrecht|Fotos anderer Personen dürfen nicht ohne Zustimmung veröffentlicht werden|
+|DNS|Domain Name System – übersetzt Domainnamen in IP-Adressen (Baumstruktur)|
 
 ---
 
-*Lernmodule HTML/CSS/JavaScript – Klasse 9 | Realschule Hessen | Marienschule Offenbach*
-*Prozessbezogene Kompetenzen: P1, P2, P3, P5 | Inhaltsbezogene Kompetenzen: I2, I3, I4, I5*
+_Lernmodule HTML/CSS/JavaScript – Klasse 9 | Realschule Hessen | Marienschule Offenbach_ _Prozessbezogene Kompetenzen: P1, P2, P3, P5 | Inhaltsbezogene Kompetenzen: I2, I3, I4, I5_
