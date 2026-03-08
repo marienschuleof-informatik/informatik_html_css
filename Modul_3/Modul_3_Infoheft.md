@@ -158,6 +158,37 @@ button.addEventListener("click", function() {
 
 ---
 
+### Objekte, Methoden und Eigenschaften
+
+In JavaScript sind viele Dinge **Objekte**. Ein Objekt ist eine Einheit, die zusammengehörige **Daten** (Eigenschaften) und **Funktionen** (Methoden) in sich vereint – ähnlich wie ein reales Ding seine Merkmale und Fähigkeiten hat.
+
+| Begriff | Bedeutung | Beispiel |
+|---|---|---|
+| **Objekt** | Eine Einheit mit Daten und Funktionen | `new Date()`, `document`, `document.body` |
+| **Eigenschaft** | Ein Datenwert, der zu einem Objekt gehört | `document.body.style.backgroundColor` |
+| **Methode** | Eine Funktion, die zu einem Objekt gehört | `document.getElementById()`, `jetzt.toLocaleDateString()` |
+
+> 💡 **Merkhilfe:** Punkt-Schreibweise – alles nach dem Punkt ist entweder eine Eigenschaft (Datenwert) oder eine Methode (Funktion, erkennbar an den runden Klammern `()`).
+
+Das `Date`-Objekt ist ein gutes erstes Beispiel: Es wird mit `new Date()` erzeugt und bringt sofort fertige Methoden mit, um Datum und Uhrzeit abzurufen:
+
+```javascript
+const jetzt = new Date();   // Ein neues Date-Objekt erzeugen
+
+// Methoden des Date-Objekts aufrufen:
+const datum   = jetzt.toLocaleDateString("de-DE");   // z. B. "08.03.2026"
+const uhrzeit = jetzt.toLocaleTimeString("de-DE");   // z. B. "14:35:02"
+
+// document ist ebenfalls ein Objekt – mit Methoden und Eigenschaften:
+document.getElementById("zeitanzeige").textContent =
+  "Heute ist der " + datum + " um " + uhrzeit + " Uhr.";
+//  ↑ Methode                ↑ Eigenschaft
+```
+
+Auch `document` selbst ist ein Objekt – es stellt die gesamte HTML-Seite dar. `getElementById()` ist eine seiner Methoden, `body` und `title` sind Eigenschaften.
+
+---
+
 ### Vollständiges Beispiel – `script.js` für den Lebenslauf
 
 So könnte deine fertige `script.js` aussehen, nachdem du Modul 3 abgeschlossen hast:
@@ -275,6 +306,7 @@ Das `<button>`-Element ist automatisch mit der Tab-Taste fokussierbar und mit En
 - JavaScript - Teil 2 - Abfragen und Schleifen: [https://youtu.be/KTu9XomNHbA](https://youtu.be/KTu9XomNHbA)
 - JavaScript - Teil 3 - Funktionen: [https://youtu.be/Xgckg_Ek4CU](https://youtu.be/Xgckg_Ek4CU)
 
+
 ---
 
 ## Merkblatt – Wichtige Begriffe
@@ -294,6 +326,9 @@ Das `<button>`-Element ist automatisch mit der Tab-Taste fokussierbar und mit En
 | `getElementById()` | Wählt ein HTML-Element anhand seiner `id` aus |
 | `textContent` | Liest oder ändert den Textinhalt eines Elements |
 | `style.backgroundColor` | Ändert die Hintergrundfarbe eines Elements per JavaScript |
+| Objekt | Einheit aus zusammengehörigen Daten und Funktionen, z. B. `Date`, `document` |
+| Eigenschaft | Datenwert eines Objekts, z. B. `document.body`, `element.textContent` |
+| Methode | Funktion eines Objekts, erkennbar an `()`, z. B. `getElementById()`, `toLocaleDateString()` |
 | Syntax | Formale Schreibregeln – Fehler verhindern die Ausführung |
 | Semantik | Bedeutung des Codes – Fehler führen zu falschem Verhalten |
 | `<button>` | Semantisches Element für Schaltflächen – tastaturzugänglich |
