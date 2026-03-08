@@ -269,10 +269,11 @@ Das `<button>`-Element ist automatisch mit der Tab-Taste fokussierbar und mit En
 
 ## Quellen
 
-- MDN Web Docs – JavaScript Grundlagen: <https://developer.mozilla.org/de/docs/Learn/JavaScript/First_steps>
-- W3Schools – JavaScript Tutorial: <https://www.w3schools.com/js/>
-- YouTube – „JavaScript in 100 Sekunden" (Fireship): <https://www.youtube.com/watch?v=DHjqpvDnNGE>
-- YouTube – „JavaScript für Anfänger" (Traversy Media): <https://www.youtube.com/watch?v=hdI2bqOjy3c>
+- MDN Web Docs – JavaScript Grundlagen: [https://developer.mozilla.org/de/docs/Learn/JavaScript/First_steps](https://developer.mozilla.org/de/docs/Learn/JavaScript/First_steps)
+- W3Schools – JavaScript Tutorial: [https://www.w3schools.com/js/](https://www.w3schools.com/js/)
+- JavaScript - Teil 1 - Eine Einführung: [https://youtu.be/EfVNy15itHA](https://youtu.be/EfVNy15itHA)
+- JavaScript - Teil 2 - Abfragen und Schleifen: [https://youtu.be/KTu9XomNHbA](https://youtu.be/KTu9XomNHbA)
+- JavaScript - Teil 3 - Funktionen: [https://youtu.be/Xgckg_Ek4CU](https://youtu.be/Xgckg_Ek4CU)
 
 ---
 
